@@ -18,7 +18,7 @@
 // Размер буфера для обработки запросов
 #define BUFFER_SIZE 4096
 // Путь к конфигурационным файлам
-#define CONFIG_PATH "/etc/myRPC/myRCP.conf"
+#define CONFIG_PATH "/etc/myRCP/myRCP.conf"
 #define USERS_LIST_PATH "/etc/myRCP/users.conf"
 
 // Получение текущего времени в миллисекундах
