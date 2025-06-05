@@ -1,5 +1,5 @@
-NAME = myRPC-client
-SRC = myRPC-client.c
+NAME = myRCP-client
+SRC = myRCP-client.c
 OBJ = ../../build/$(NAME).o
 MYSYSLOG_OBJ = ../../build/libmysyslog.o
 BIN = ../../bin/$(NAME)
