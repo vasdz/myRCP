@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 User=root
-ExecStart=/usr/local/bin/myRPC-server -c /etc/myRPC/myRPC.conf
+ExecStart=/usr/local/bin/myRCP-server -c /etc/myRCP/myRCP.conf
 Restart=on-failure
 
 
