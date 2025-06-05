@@ -18,8 +18,8 @@
 // Размер буфера для обработки запросов
 #define BUFFER_SIZE 4096
 // Путь к конфигурационным файлам
-#define CONFIG_PATH "/etc/myRPC/myRPC.conf"
-#define USERS_LIST_PATH "/etc/myRPC/users.conf"
+#define CONFIG_PATH "/etc/myRPC/myRCP.conf"
+#define USERS_LIST_PATH "/etc/myRCP/users.conf"
 
 // Получение текущего времени в миллисекундах
 static inline double get_current_time_ms() {
@@ -186,7 +186,7 @@ static void load_server_config(int *port, int *tcp_mode) {
 }
 
 int main() {
-    log_info("Запуск сервера myRPC");
+    log_info("Запуск сервера myRCP");
 
     int server_port = 1234;
     int use_tcp = 1;
