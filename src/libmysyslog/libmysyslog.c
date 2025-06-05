@@ -7,7 +7,7 @@
 #include <string.h>
 
 
-#define LOG_FILE "/var/log/myrpc.log"
+#define LOG_FILE "/var/log/myrcp.log"
 
 static const char *level_str(int level) {
     switch (level) {
