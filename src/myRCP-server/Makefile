@@ -1,11 +1,11 @@
 CC = gcc
 CFLAGS = -Wall -I../../source/libmysyslog
 LDFLAGS = -ljson-c
-NAME = myRPC-server
-SRC = myRPC-server.c
-OBJ = ../../build/myRPC-server.o
+NAME = myRCP-server
+SRC = myRCP-server.c
+OBJ = ../../build/myRCP-server.o
 SYSLOG_OBJ = ../../build/libmysyslog.o
-BIN = ../../bin/myRPC-server
+BIN = ../../bin/myRCP-server
 
 all: $(BIN)
 
