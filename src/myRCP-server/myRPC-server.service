@@ -1,0 +1,13 @@
+[Unit]
+Description=myRPC Server Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/local/bin/myRPC-server -c /etc/myRPC/myRPC.conf
+Restart=on-failure
+
+
+[Install]
+WantedBy=multi-user.target
